@@ -221,3 +221,20 @@ footer hr {
     margin-bottom: 10px;
     padding-left: 10px;
 }
+
+@media (max-width: 900px){
+    section{
+        flex-direction: column;
+        margin-top: -38px;
+        /* align-items: center; */
+        padding-top: 0px;
+    }
+    section div{
+        align-items: center;
+    }
+    section div p{
+        width: 400px;
+        text-align: center;
+        /* margin-bottom: 20px; */
+    }
+}
